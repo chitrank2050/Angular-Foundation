@@ -1,10 +1,23 @@
 # GithubClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+This is Just a quick seed for Angular v4 and already has foundation integrated.
+
+## Instructions
+After cloning the repo change you working directory 
+
+REMOVING .git files as you have no intentions of updating the source. Discard the .git folder
+rm -rf .git  # OS/X (bash)
+rd .git /S/Q # windows
+
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+or 
+
+Run 'npm start'
 
 ## Code scaffolding
 
