@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
-
+import { Component,OnInit } from '@angular/core';
+declare var $:any
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit {
+  constructor(){
+
+  }
+  title="Angular-cli + Foundation";
+  para = "This is a quickseed for Angular 4 with .scss styles";
+ ngOnInit() {
+    $(document).foundation();
+  }
 }
