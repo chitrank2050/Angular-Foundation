@@ -6,9 +6,9 @@ This is Just a quick seed for Angular v4 and already has foundation integrated.
 ## Instructions
 After cloning the repo change you working directory 
 
-#H1 as you have no intentions of updating the source. Discard the .git folder<br/>
+# as you have no intentions of updating the source. Discard the .git folder<br/>
 > rm -rf .git  # OS/X (bash)
-  rd .git /S/Q # windows
+> rd .git /S/Q # windows
 
 
 ## Development server
